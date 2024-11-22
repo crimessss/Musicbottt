@@ -1,0 +1,20 @@
+{
+  "name": "highrise-music-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@hiber/highrise-bot-sdk": "^0.1.2",
+    "dotenv": "^16.3.1",
+    "icecast-parser": "^4.0.2",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
